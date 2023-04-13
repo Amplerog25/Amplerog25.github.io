@@ -161,19 +161,19 @@ margin-bottom: 1em;
   clear: both;
   display: table;
 }
-#widepug { background-image: url(widepug.JPG);
+#widepug { background-image: url(widepug.jpg);
 background-size: 100% 100%;
 height: 250px; }
-#puglogo { background-image: url(puglogo.JPG);
+#puglogo { background-image: url(puglogo.jpg);
 background-size: 50% 50%;
 height: 100px; }
 #pugfood{ background-image: url(pugfood.png);
 background-size: 100% 100%;
 height: 300px; }
-#pugbefore{ background-image: url(pugbefore1.JPG);
+#pugbefore{ background-image: url(pugbefore1.jpg);
 background-size: 100% 100%;
 height: 300px; }
-#pugfamily{ background-image: url(pugfamily.JPG);
+#pugfamily{ background-image: url(pugfamily.jpg);
 background-size: 100% 100%;
 height: 300px; }
 .floatleft { float: left;
