@@ -1,0 +1,182 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+body { background-color: #B5651D;
+color: #221811;
+font-family: Verdana, Arial, sans-serif;
+}
+header { background-color: #d8d2cd;
+height: 150px;
+border-bottom-color:000000;
+background-image: url(puglogo.JPG);
+background-repeat: no-repeat;
+}
+table
+{
+width: 50%;
+border-spacing: 1;
+background-color: #ffffcc;
+text-align: center;
+margin: 0 auto;
+
+}
+td, th
+{
+padding: 5px;
+}
+tr:nth-of-type(odd){
+background-color: #d2b48c;
+}
+h1 { padding-top: 45px;
+padding-left: 260px;
+font-size: 3em;
+}
+h2 {
+font-size: 1.0em;
+padding-bottom: 1px;
+color: #8C3826;
+line-height: 200%;
+text-align: left;
+}
+
+h3{font-size: 1.0em;
+padding-bottom: 2px;
+color: #8C3826;
+line-height: 200%;
+text-align: center;
+}
+
+h4 { background-color: #D2B48C;
+font-size: 1.1em;
+padding-left: .5em;
+padding-bottom: .25em;
+text-transform: uppercase;
+border-bottom: solid 2px #231814;
+padding-bottom: 0;
+clear: left;
+}
+
+nav li a {
+
+    display: block;
+
+    text-decoration: none;
+
+    margin-right: 0;
+
+    width: auto;
+
+    padding: 6px;
+
+    font-weight: bold;
+
+    line-height: 2em;
+
+    color:#1e5799;
+    border: 2px solid #000;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #FEF6C2; }
+nav a:visited { color: #000000; }
+nav a:hover { color: #CC9933; }
+nav ul {margin: 0;
+padding: 0
+}
+nav li {
+
+    list-style: none;
+
+    font-size: 12px;
+
+    float: left;
+
+    text-align: center;
+    width: 16.66%;
+
+}
+main { padding: 0 0 2em 0;
+margin-top: 37px;
+background-color: #d8d2cd;
+display: block;
+}
+main h2, main h3, main h4, main p, main div, main ul, main dl { padding-left: 3em; padding-right: 2em; }
+
+footer { background-color: #D2B48C;
+font-size: .60em;
+font-style: italic;
+text-align: center;
+}
+#wrapper {
+margin-right: auto;
+margin-left: auto;
+background-color: #DDDEDC;
+}
+
+#wrapper { display: grid;           
+grid-template:                
+"header  header"                
+"nav     main"                
+"footer  footer"                
+/ 200px; }
+
+.details { padding-left: 20%;
+padding-right: 20%;
+overflow: auto;
+}
+img { padding-left: 10px;
+padding-right: 10px;
+}
+label{
+
+float: left;
+
+display: block;
+
+text-align: right;
+
+width: 8em;
+
+padding-right: 1em;
+
+}
+form{
+
+padding: 2em;
+
+}
+input,textarea{
+
+display: block;
+
+margin-bottom: 1em;
+
+}
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#widepug { background-image: url(widepug.JPG);
+background-size: 100% 100%;
+height: 250px; }
+#puglogo { background-image: url(puglogo.JPG);
+background-size: 50% 50%;
+height: 100px; }
+#pugfood{ background-image: url(pugfood.png);
+background-size: 100% 100%;
+height: 300px; }
+#pugbefore{ background-image: url(pugbefore1.JPG);
+background-size: 100% 100%;
+height: 300px; }
+#pugfamily{ background-image: url(pugfamily.JPG);
+background-size: 100% 100%;
+height: 300px; }
+.floatleft { float: left;
+padding-right: 2em;
+padding-bottom: 2em;
+}
