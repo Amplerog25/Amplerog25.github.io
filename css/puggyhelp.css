@@ -7,7 +7,7 @@ font-family: Verdana, Arial, sans-serif;
 header { background-color: #d8d2cd;
 height: 150px;
 border-bottom-color:000000;
-background-image: url(puglogo.jpg);
+background-image: url("../images/puglogo1.jpg");
 background-repeat: no-repeat;
 }
 table
@@ -17,7 +17,7 @@ border-spacing: 1;
 background-color: #ffffcc;
 text-align: center;
 margin: 0 auto;
-
+border-color: #000000;
 }
 td, th
 {
@@ -30,8 +30,8 @@ h1 { padding-top: 45px;
 padding-left: 260px;
 font-size: 3em;
 }
-h2 {
-font-size: 1.0em;
+h2 {font-family:Arvo;
+font-size: 1.2em;
 padding-bottom: 1px;
 color: #8C3826;
 line-height: 200%;
@@ -55,6 +55,10 @@ padding-bottom: 0;
 clear: left;
 }
 
+strong {
+  font-weight: bold;
+}
+
 nav li a {
 
     display: block;
@@ -69,7 +73,7 @@ nav li a {
 
     font-weight: bold;
 
-    line-height: 2em;
+    line-height: 1.9em;
 
     color:#1e5799;
     border: 2px solid #000;
@@ -118,13 +122,7 @@ grid-template:                
 "footer  footer"                
 / 200px; }
 
-.details { padding-left: 20%;
-padding-right: 20%;
-overflow: auto;
-}
-img { padding-left: 10px;
-padding-right: 10px;
-}
+
 label{
 
 float: left;
@@ -142,18 +140,19 @@ form{
 
 padding: 2em;
 
+
 }
 input,textarea{
 
 display: block;
 
-margin-bottom: 1em;
+margin-bottom: 1.5em;
 
 }
-.img-container {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+#Submit
+{
+margin-left: 6em;
+
 }
 
 .clearfix::after {
@@ -161,21 +160,29 @@ margin-bottom: 1em;
   clear: both;
   display: table;
 }
-#widepug { background-image: url(widepug.jpg);
-background-size: 100% 100%;
-height: 250px; }
-#puglogo { background-image: url(puglogo.jpg);
-background-size: 50% 50%;
+
+#widepug1 { background-image: url("../images/widepug1.jpg");
+background-size: 100% 110%;
+height: 300px; }
+#puglogo1 { background-image: url("../images/puglogo1.JPG");
+background-size:50% 50%;
 height: 100px; }
-#pugfood{ background-image: url(pugfood.png);
+#pugfood{ background-image: url("../images/pugfood.JPG");
+background-size: 100% 110%;
+height: 300px; }
+#pugbefore{ background-image: url("../images/pugbefore1.JPG");
 background-size: 100% 100%;
 height: 300px; }
-#pugbefore{ background-image: url(pugbefore1.jpg);
+#pugfamily{ background-image: url("../images/pugfamily.JPG");
 background-size: 100% 100%;
 height: 300px; }
-#pugfamily{ background-image: url(pugfamily.jpg);
-background-size: 100% 100%;
+#Pugcontact { background-image: url("../images/Pugcontact.JPG");
+background-size: 100% 130%;
 height: 300px; }
+#Pugmess { background-image: url("../images/Pugmess.JPG");
+background-size: 100% 125%;
+height: 300px; }
+
 .floatleft { float: left;
 padding-right: 2em;
 padding-bottom: 2em;
